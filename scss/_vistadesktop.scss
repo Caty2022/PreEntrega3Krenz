@@ -1,0 +1,154 @@
+/*Media Query- Desktop*/
+
+@media (min-width: 575px) {
+  .logo {
+    font-size: 60px;
+    font-family: "Tangerine", sans-serif;
+    color: #fff;
+  }
+  a {
+    color: black;
+    text-decoration: none;
+  }
+
+  li {
+    list-style-type: none;
+  }
+  .container {
+    margin: 0 auto;
+    max-width: 1200px;
+    overflow: visible;
+  }
+  .navbar {
+    background-image: linear-gradient(
+      to right,
+      rgb(255, 170, 0),
+      rgb(252, 218, 125)
+    );
+    height: 90px;
+    padding: 10px;
+  }
+
+  .navbar .flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+  }
+  .navbar ul {
+    display: flex;
+  }
+
+  .navbar a {
+    color: white;
+    padding: 9px;
+    font-size: 20px;
+  }
+  .navbar a:hover {
+    color: #9867c5;
+    border-bottom: 3px solid #9867c5;
+  }
+  .mainbar {
+    background-image: url(https://images.pexels.com/photos/414667/pexels-photo-414667.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    height: 400px;
+    padding: 50px;
+  }
+
+  .mainbar p {
+    font-size: 70px;
+    margin: 10px 0;
+    line-height: 1.2;
+    text-align: center;
+    color: #fff;
+    font-family: "Tangerine", sans-serif;
+  }
+  .mainbar .flex {
+    display: flex;
+    align-items: center;
+    height: 100%;
+  }
+  .articlebar {
+    background-image: linear-gradient(
+      to right,
+      rgb(255, 170, 0),
+      rgb(252, 218, 125)
+    );
+
+    padding: 50px;
+  }
+  .articlebar h2 {
+    text-align: center;
+    font-size: 25px;
+  }
+  .articlebar p {
+    font-size: 40px;
+    margin: 10px 0;
+    line-height: 1.2;
+    text-align: center;
+    font-family: "Tangerine", sans-serif;
+  }
+  .articlebar .flex {
+    display: inline-block;
+    align-items: center;
+  }
+  .sectionbar {
+    background-image: linear-gradient(
+      to right,
+      rgb(255, 170, 0),
+      rgb(252, 218, 125)
+    );
+
+    padding: 50px;
+  }
+  .flores {
+    width: 70px;
+    margin-left: 60px;
+  }
+
+  .sectionbar h3 {
+    text-align: center;
+    font-size: 25px;
+  }
+  .sectionbar h4 {
+    font-family: "Tangerine", sans-serif;
+    font-size: 30px;
+  }
+  .contenedor {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 30px;
+  }
+  .contenedornosotros {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
+  }
+
+  .contenedornosotros img {
+    border-radius: 40px;
+    width: 50%;
+    padding: 5px;
+  }
+
+  .textonosotros {
+    font-family: "Tangerine", sans-serif;
+    line-height: 1.5;
+    font-size: 35px;
+    margin: 20px;
+    text-align: justify;
+  }
+  .footer {
+    text-align: center;
+    padding: 5%;
+  }
+  .footer .row a i {
+    margin: 2%;
+    font-size: 2em;
+  }
+  .footer .row i {
+    font-size: 1.5em;
+  }
+}

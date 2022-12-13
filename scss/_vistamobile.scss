@@ -1,0 +1,87 @@
+/*Media query- Mobile*/
+
+@media only screen and (max-width: 575px) {
+  .navbar .flex {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .mainbar .flex {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .contenedor {
+    flex-direction: column;
+    margin-left: 20px;
+  }
+  h3 {
+    margin-right: 20px;
+  }
+
+  .flores {
+    margin-right: 300px;
+  }
+
+  h4 {
+    margin-left: 50px;
+  }
+  .contenedornosotros {
+    flex-direction: column;
+  }
+
+  .contenedornosotros img {
+    width: 300px;
+    height: 300px;
+    margin-left: 15px;
+  }
+  .textonosotros {
+    padding-left: 30px;
+    text-align: center;
+    line-height: 1.5;
+    font-size: 30px;
+  }
+  .container-fls {
+    grid-template-columns: repeat(1, 1fr);
+    margin-left: 30px;
+  }
+  .container-fl {
+    grid-template-columns: repeat(1, 1fr);
+    margin-left: 40px;
+  }
+  .container-4 {
+    margin: 0%;
+  }
+  form {
+    width: 300px;
+    margin: auto;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 8px;
+    background-color: rgb(174, 111, 17);
+  }
+  .container-5 {
+    display: inline-block;
+  }
+  .container-5 iframe {
+    width: 200px;
+    height: 200px;
+    justify-content: center;
+    margin-left: 80px;
+  }
+  .footer {
+    text-align: center;
+    padding: 5%;
+  }
+
+  .footer .row a i {
+    margin: 0% 3%;
+    font-size: 2em;
+  }
+  .footer .row i {
+    font-size: 1.5em;
+  }
+}

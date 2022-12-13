@@ -1,0 +1,129 @@
+/* Pagina index*/
+body {
+  background-image: linear-gradient(
+    to right,
+    rgb(255, 170, 0),
+    rgb(252, 218, 125)
+  );
+  animation: "animate__animated animate__zoomIn";
+}
+
+.logo {
+  font-size: 40px;
+  font-family: "Tangerine", sans-serif;
+  color: #fff;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+  overflow: visible;
+}
+.navbar {
+  background-image: linear-gradient(
+    to right,
+    rgb(255, 170, 0),
+    rgb(252, 218, 125)
+  );
+  height: 90px;
+  padding: 10px;
+
+  .flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+  }
+  ul {
+    display: flex;
+  }
+
+  li {
+    list-style-type: none;
+  }
+  a {
+    color: white;
+    padding: 9px;
+    text-decoration: none;
+
+    &:hover {
+      color: #9867c5;
+      border-bottom: 3px solid #9867c5;
+    }
+  }
+}
+
+.mainbar {
+  background-image: url(https://images.pexels.com/photos/414667/pexels-photo-414667.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+  height: 500px;
+  padding: 50px;
+
+  p {
+    font-size: 20px;
+    margin: 10px 0;
+    line-height: 1.2;
+    text-align: center;
+    color: #fff;
+    font-family: "Tangerine", sans-serif;
+  }
+
+  .flex {
+    display: flex;
+    align-items: center;
+    height: 100%;
+  }
+}
+
+.articlebar {
+  background-image: linear-gradient(
+    to right,
+    rgb(255, 170, 0),
+    rgb(252, 218, 125)
+  );
+
+  padding: 50px;
+  h2 {
+    text-align: center;
+  }
+
+  p {
+    font-size: 30px;
+    margin: 10px 0;
+    line-height: 1.2;
+    text-align: center;
+    font-family: "Tangerine", sans-serif;
+  }
+
+  .flex {
+    display: inline-block;
+    align-items: center;
+  }
+}
+
+.sectionbar {
+  background-image: linear-gradient(
+    to right,
+    rgb(255, 170, 0),
+    rgb(252, 218, 125)
+  );
+
+  padding: 50px;
+
+  .flores {
+    width: 70px;
+    margin-left: 60px;
+  }
+
+  .sectionbar h3 {
+    text-align: center;
+  }
+  .sectionbar h4 {
+    font-family: "Tangerine", sans-serif;
+  }
+  .contenedor {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 30px;
+  }
+}

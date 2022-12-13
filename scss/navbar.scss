@@ -1,0 +1,44 @@
+.logo {
+  font-size: 40px;
+  font-family: "Tangerine", sans-serif;
+  color: #fff;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+  overflow: visible;
+}
+.navbar {
+  background-image: linear-gradient(
+    to right,
+    rgb(255, 170, 0),
+    rgb(252, 218, 125)
+  );
+  height: 90px;
+  padding: 10px;
+
+  .flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+  }
+  ul {
+    display: flex;
+  }
+
+  li {
+    list-style-type: none;
+  }
+  a {
+    color: white;
+    padding: 9px;
+    text-decoration: none;
+
+    &:hover {
+      color: #9867c5;
+      border-bottom: 3px solid #9867c5;
+    }
+  }
+}

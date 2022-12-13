@@ -1,0 +1,574 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.logo {
+  font-size: 40px;
+  font-family: "Tangerine", sans-serif;
+  color: #fff;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+  overflow: visible;
+}
+
+.navbar {
+  background-image: linear-gradient(
+    to right,
+    rgb(255, 170, 0),
+    rgb(252, 218, 125)
+  );
+  height: 90px;
+  padding: 10px;
+}
+.navbar .flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+.navbar ul {
+  display: flex;
+}
+.navbar li {
+  list-style-type: none;
+}
+.navbar a {
+  color: white;
+  padding: 9px;
+  text-decoration: none;
+}
+.navbar a:hover {
+  color: #9867c5;
+  border-bottom: 3px solid #9867c5;
+}
+
+.footer {
+  padding: 10px;
+  background: rgb(71, 70, 70);
+  font-family: "Play", sans-serif;
+  text-align: center;
+  padding: 30px 0px;
+}
+.footer .row {
+  width: 100%;
+  margin: 1% 0%;
+  padding: 0.6% 0%;
+  color: gray;
+  font-size: 0.8em;
+}
+.footer a {
+  text-decoration: none;
+  color: gray;
+  transition: 0.5s;
+}
+.footer a i {
+  font-size: 2em;
+  margin: 0% 1%;
+}
+.footer a i:hover {
+  color: #fff;
+}
+
+/* Pagina index*/
+body {
+  background-image: linear-gradient(
+    to right,
+    rgb(255, 170, 0),
+    rgb(252, 218, 125)
+  );
+  animation: "animate__animated animate__zoomIn";
+}
+
+.logo {
+  font-size: 40px;
+  font-family: "Tangerine", sans-serif;
+  color: #fff;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+  overflow: visible;
+}
+
+.navbar {
+  background-image: linear-gradient(
+    to right,
+    rgb(255, 170, 0),
+    rgb(252, 218, 125)
+  );
+  height: 90px;
+  padding: 10px;
+}
+.navbar .flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+.navbar ul {
+  display: flex;
+}
+.navbar li {
+  list-style-type: none;
+}
+.navbar a {
+  color: white;
+  padding: 9px;
+  text-decoration: none;
+}
+.navbar a:hover {
+  color: #9867c5;
+  border-bottom: 3px solid #9867c5;
+}
+
+.mainbar {
+  background-image: url(https://images.pexels.com/photos/414667/pexels-photo-414667.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+  height: 500px;
+  padding: 50px;
+}
+.mainbar p {
+  font-size: 50px;
+  margin: 10px 0;
+  line-height: 1.2;
+  text-align: center;
+  color: #fff;
+  font-family: "Tangerine", sans-serif;
+}
+.mainbar .flex {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.articlebar {
+  background-image: linear-gradient(
+    to right,
+    rgb(255, 170, 0),
+    rgb(252, 218, 125)
+  );
+  padding: 50px;
+}
+.articlebar h2 {
+  text-align: center;
+}
+.articlebar p {
+  font-size: 30px;
+  margin: 10px 0;
+  line-height: 1.2;
+  text-align: center;
+  font-family: "Tangerine", sans-serif;
+}
+.articlebar .flex {
+  display: inline-block;
+  align-items: center;
+}
+
+.sectionbar {
+  background-image: linear-gradient(
+    to right,
+    rgb(255, 170, 0),
+    rgb(252, 218, 125)
+  );
+  padding: 50px;
+}
+.sectionbar .flores {
+  width: 70px;
+  margin-left: 60px;
+}
+.sectionbar h3 {
+  text-align: center;
+}
+.sectionbar h4 {
+  font-family: "Tangerine", sans-serif;
+}
+.sectionbar .contenedor {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+/*Pagina nosotros*/
+.contenedornosotros {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 5%;
+}
+.contenedornosotros img {
+  border-radius: 40px;
+  width: 100%;
+  padding: 20px;
+  height: auto;
+}
+.contenedornosotros .textonosotros {
+  font-family: "Tangerine", sans-serif;
+}
+
+/* Pagina Flores*/
+.container-fls {
+  display: grid;
+  grid-auto-rows: 300px;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 50px;
+  grid-gap: 10px;
+}
+.container-fls img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+.container-fls .cards:hover {
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+}
+
+/*Pagina regalos*/
+.container-fl {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 300px;
+  padding: 20px;
+  grid-gap: 10px;
+  margin-left: 50px;
+}
+.container-fl img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+.container-fl .card {
+  width: 250px;
+  margin: 20px;
+  height: 250px;
+  position: relative;
+  border-radius: 6px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+  cursor: default;
+  transition: all 400ms ease;
+}
+.container-fl .card h5 {
+  font-weight: 100px;
+  margin: 15px;
+  font-size: 40px;
+}
+.container-fl .card .contenido {
+  padding: 15px;
+  text-align: center;
+  font-family: "Tangerine", sans-serif;
+}
+.container-fl .card p {
+  line-height: 1.5;
+}
+.container-fl .card img {
+  width: 100%;
+  height: 200%;
+}
+.container-fl .card :hover {
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+  transform: translateY(-3%);
+}
+
+/* Pagina contacto*/
+.contenedorcontacto {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-4 {
+  display: flex;
+  justify-content: right;
+  margin-right: 300px;
+  padding: 10px;
+}
+.container-4 p {
+  margin: 20px;
+  text-align: center;
+}
+
+form {
+  width: 600px;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  background-color: rgb(174, 111, 17);
+}
+form input,
+form textarea {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 7px;
+  box-sizing: border-box;
+  font-size: 17px;
+  border: none;
+}
+form textarea {
+  min-height: 100px;
+  max-height: 200px;
+  max-width: 100%;
+}
+
+#boton {
+  background: #3f475c;
+  color: #fff;
+  padding: 10px;
+}
+#boton:hover {
+  cursor: pointer;
+  background-color: #606779;
+}
+
+.container-5 {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+
+.contenedorcontacto1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+}
+
+h4 {
+  color: rgb(0, 0, 0);
+}
+
+/*Media query- Mobile*/
+@media only screen and (max-width: 575px) {
+  .navbar .flex {
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .mainbar .flex {
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .contenedor {
+    flex-direction: column;
+    margin-left: 20px;
+  }
+  h3 {
+    margin-right: 20px;
+  }
+  .flores {
+    margin-right: 400px;
+  }
+  h4 {
+    margin-left: 50px;
+  }
+  .contenedornosotros {
+    flex-direction: column;
+  }
+  .contenedornosotros img {
+    width: 300px;
+    height: 300px;
+    margin-left: 15px;
+  }
+  .textonosotros {
+    padding-left: 30px;
+    text-align: center;
+    line-height: 1.5;
+    font-size: 30px;
+  }
+  .container-fls {
+    grid-template-columns: repeat(1, 1fr);
+    margin-left: 30px;
+  }
+  .container-fl {
+    grid-template-columns: repeat(1, 1fr);
+    margin-left: 40px;
+  }
+  .container-4 {
+    margin: 0%;
+  }
+  form {
+    width: 300px;
+    margin: auto;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 8px;
+    background-color: rgb(174, 111, 17);
+  }
+  .container-5 {
+    display: inline-block;
+  }
+  .container-5 iframe {
+    width: 200px;
+    height: 200px;
+    justify-content: center;
+    margin-left: 80px;
+  }
+  .footer {
+    text-align: center;
+    padding: 5%;
+  }
+  .footer .row a i {
+    margin: 0% 3%;
+    font-size: 2em;
+  }
+  .footer .row i {
+    font-size: 1.5em;
+  }
+}
+/*Media Query- Desktop*/
+@media (min-width: 575px) {
+  .logo {
+    font-size: 60px;
+    font-family: "Tangerine", sans-serif;
+    color: #fff;
+  }
+  a {
+    color: black;
+    text-decoration: none;
+  }
+  li {
+    list-style-type: none;
+  }
+  .container {
+    margin: 0 auto;
+    max-width: 1200px;
+    overflow: visible;
+  }
+  .navbar {
+    background-image: linear-gradient(
+      to right,
+      rgb(255, 170, 0),
+      rgb(252, 218, 125)
+    );
+    height: 90px;
+    padding: 10px;
+  }
+  .navbar .flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+  }
+  .navbar ul {
+    display: flex;
+  }
+  .navbar a {
+    color: white;
+    padding: 9px;
+    font-size: 20px;
+  }
+  .navbar a:hover {
+    color: #9867c5;
+    border-bottom: 3px solid #9867c5;
+  }
+  .mainbar {
+    background-image: url(https://images.pexels.com/photos/414667/pexels-photo-414667.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    height: 400px;
+    padding: 50px;
+  }
+  .mainbar p {
+    font-size: 70px;
+    margin: 10px 0;
+    line-height: 1.2;
+    text-align: center;
+    color: #fff;
+    font-family: "Tangerine", sans-serif;
+  }
+  .mainbar .flex {
+    display: flex;
+    align-items: center;
+    height: 100%;
+  }
+  .articlebar {
+    background-image: linear-gradient(
+      to right,
+      rgb(255, 170, 0),
+      rgb(252, 218, 125)
+    );
+    padding: 50px;
+  }
+  .articlebar h2 {
+    text-align: center;
+    font-size: 25px;
+  }
+  .articlebar p {
+    font-size: 40px;
+    margin: 10px 0;
+    line-height: 1.2;
+    text-align: center;
+    font-family: "Tangerine", sans-serif;
+  }
+  .articlebar .flex {
+    display: inline-block;
+    align-items: center;
+  }
+  .sectionbar {
+    background-image: linear-gradient(
+      to right,
+      rgb(255, 170, 0),
+      rgb(252, 218, 125)
+    );
+    padding: 50px;
+  }
+  .flores {
+    width: 70px;
+    margin-left: 60px;
+  }
+  .sectionbar h3 {
+    text-align: center;
+    font-size: 25px;
+  }
+  .sectionbar h4 {
+    font-family: "Tangerine", sans-serif;
+    font-size: 30px;
+  }
+  .contenedor {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 30px;
+  }
+  .contenedornosotros {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
+  }
+  .contenedornosotros img {
+    border-radius: 40px;
+    width: 50%;
+    padding: 5px;
+  }
+  .textonosotros {
+    font-family: "Tangerine", sans-serif;
+    line-height: 1.5;
+    font-size: 35px;
+    margin: 20px;
+    text-align: justify;
+  }
+  .footer {
+    text-align: center;
+    padding: 5%;
+  }
+  .footer .row a i {
+    margin: 2%;
+    font-size: 2em;
+  }
+  .footer .row i {
+    font-size: 1.5em;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

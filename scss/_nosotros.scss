@@ -1,0 +1,20 @@
+/*Pagina nosotros*/
+.contenedornosotros {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 5%;
+
+  img {
+    border-radius: 40px;
+    width: 100%;
+    padding: 20px;
+
+    height: auto;
+  }
+
+  .textonosotros {
+    font-family: "Tangerine", sans-serif;
+  }
+}
